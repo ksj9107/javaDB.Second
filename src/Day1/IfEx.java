@@ -1,5 +1,7 @@
 package Day1;
 
+import com.sun.java_cup.internal.runtime.Scanner;
+
 public class IfEx {
 
 	public static void main(String[] args) {
@@ -14,15 +16,17 @@ public class IfEx {
 		 * 		실행문3;//조건식1과 조건식 2가 거짓일 때 실행
 		 * }
 		 */
+		Scanner scanner;
+		
 		int num = 0;
-
 		if(num == 0){
 			System.out.println(num+"는 짝수입니다.");;
-		} else if(num % 2 == 0){
+		} 
+		else if(num % 2 == 0){
 			System.out.println("0 입니다.");
-		} else{
+		} 
+		else{
 			System.out.println(num+"는 홀수입니다.");
 		}
 	}
-
 }
