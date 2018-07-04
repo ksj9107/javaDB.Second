@@ -6,12 +6,10 @@ public class switchEx2 {
 		 * 문자 ch가 b 또는 B이면 B입니다. 라고 콘솔에 출력하고
 		 * 문자 ch가 a,b,A,B가 아니면 A와 B가 아닙니다.
 		 * 라고 콘솔에 출력하는 예제를 작성하세요.*/
-		char ch = 69;
+		char ch = 'a';
 		
 		switch(ch){
-		case 'a':
-			System.out.println("A입니다.");
-			break;
+		case 'a':// a또는 A일 때를 이렇게 표현가능
 		case 'A':
 			System.out.println("A입니다.");
 			break;
