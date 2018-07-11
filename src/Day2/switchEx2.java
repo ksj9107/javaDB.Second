@@ -9,7 +9,7 @@ public class switchEx2 {
 		char ch = 'a';
 		
 		switch(ch){
-		case 'a':// a또는 A일 때를 이렇게 표현가능
+		case 97:// a또는 A일 때를 이렇게 표현가능
 		case 'A':
 			System.out.println("A입니다.");
 			break;

@@ -67,5 +67,6 @@ public class ForEx5 {
 		}else{
 			System.out.println(num+"은(는) 합성수 입니다.");
 		}
+		sc.close();
 	}
 }
