@@ -1,8 +1,5 @@
 package Day3;
 
-import java.io.InputStream;
-import java.util.Scanner;
-
 public class ForEx1 {
 	public static void main(String[] args) {
 		/*		
@@ -215,8 +212,4 @@ public class ForEx1 {
 		}
 	}
 
-	private static Scanner Scanner(InputStream in) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
