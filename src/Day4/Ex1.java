@@ -1,6 +1,5 @@
 package Day4;
 
-import java.util.Scanner;
 import java.util.concurrent.SynchronousQueue;
 
 public class Ex1 {
@@ -115,15 +114,15 @@ public class Ex1 {
 			}
 		}
 		System.out.println(num1+"과 "+num2+"의 최소공배수 : "+minct);*/
-		Scanner sc = new Scanner(System.in);
+/*		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자를 입력하세요 : ");
 		int num = sc.nextInt();
-		/* *****
+		 *****
 		 * *****
 		 * *****
 		 * *****
 		 * *****
-		 * */
+		 * 
 		for(int i=0;i<num;i++){
 			for(int j=0;j<num;j++){
 				System.out.print("*");
@@ -131,12 +130,12 @@ public class Ex1 {
 			System.out.println();
 		}
 		
-		/* *
+		 *
 		 * **
 		 * ***
 		 * ****
 		 * *****
-		 * */
+		 * 
 		
 		for(int i=1;i<=num;i++){
 			for(int j=0;j<i;j++){
@@ -145,12 +144,12 @@ public class Ex1 {
 			System.out.println();
 		}
 		
-		/*     * : 공백 4 / 별 1
+		     * : 공백 4 / 별 1
 		 *    ** : 공백 3 / 별 2
 		 *   *** : 공백 2 / 별 3
 		 *  **** : 공백 1 / 별 4
 		 * ***** : 공백 0 / 별 5
-		 * */
+		 * 
 		for(int i=1;i<=num;i++){
 			for(int j=0; j<num-i;j++){
 				System.out.print(" ");
@@ -161,12 +160,12 @@ public class Ex1 {
 				System.out.println();
 		}
 		
-		/* *****
+		 *****
 		 *  ****
 		 *   ***
 		 *    **
 		 *     *
-		 * */
+		 * 
 		for(int i=num; i>0; i--){
 			for(int j=i; j<num; j++){
 				System.out.print(" ");
@@ -176,12 +175,12 @@ public class Ex1 {
 			}
 			System.out.println();
 		}
-		/* *********
+		 *********
 		 *  *******
 		 *   *****
 		 *    ***
 		 *     *
-		 * */
+		 * 
 		for(int i=num; i>0; i--){
 			for(int j=i; j<num; j++){
 				System.out.print(" ");
@@ -191,7 +190,7 @@ public class Ex1 {
 			}
 			System.out.println();
 		}
-		
+		*/
 		/*   * 1	공백의 갯수:2  별의갯수:1 
 		 *  ** 2  	공백의 갯수:1  별의갯수:2
 		 * *** 3 	공백의 갯수:0  별의갯수:3
