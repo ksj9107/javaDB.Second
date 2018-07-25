@@ -3,7 +3,7 @@ package Day5;
 import java.util.Scanner;
 
 public class MathMethod {
-	static int gcd=0;
+	
 	/* main메소드에 있는 num1,num2와
 	 * gcd메소드에 있는 num1,num2는 서로 다른 변수이다.
 	 * */
@@ -16,13 +16,13 @@ public class MathMethod {
 		Scanner sc = new Scanner(System.in);
 		
 		int num1=0,num2=0;
-		int lcm=0;
+		int lcm=0, gcd=0;
 		
 		num1 = sc.nextInt();
 		num2 =sc.nextInt();
 		
 		gcd = gcd(num1,num2);
-		lcm = lcm(num1,num2);
+		lcm = lcm2(num1,num2);
 		System.out.println(num1+"과(와)"+num2+"의 최대공약수 :"+ gcd);
 		System.out.println(num1+"과(와)"+num2+"의 최소공배수 :"+ lcm);
 		sc.close();
@@ -48,5 +48,10 @@ public class MathMethod {
 			}
 		}
 		return 1;
+	}
+	public static int lcm2(int num1,int num2){
+		int lcm=0;
+		lcm = num1*num2/gcd(num1,num2);
+		return lcm;
 	}
 }
