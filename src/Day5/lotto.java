@@ -95,7 +95,7 @@ public class lotto {
 		return arr;
 	}
 	public static void printarr(int arr[]){
-/*		if(arr==null){
+	  /*if(arr==null){
 			System.out.println("로또번호 생성에 실패했습니다.");
 		}else{
 			for(int i=0; i<arr.length;i++){
