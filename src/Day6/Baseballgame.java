@@ -110,11 +110,13 @@ public class Baseballgame {
 		 if(strike != 0){
 			   System.out.print(strike+"S ");
 		   }
-		   if(ball != 0){
+		 if(ball != 0){
 			   System.out.print(ball+"B");
-		   }else{
-			   System.out.print("3O");
-		   }System.out.println();
+		   }
+		 if(strike == 0 && ball == 0){
+			 System.out.println("3O");
+		 }
+		  System.out.println();
 		return strike;
 	}
 }
