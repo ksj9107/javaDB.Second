@@ -12,6 +12,7 @@ public class lotto {
 		int arr[]=null;
 		int arr2[]=null; // 당첨 번호
 		int checkarr[] = new int[2];
+		
 		arr=generate(min,max,size);
 		sort(arr,size);
 		System.out.print("생성번호  ");
@@ -107,18 +108,17 @@ public class lotto {
 		}
 		System.out.println();
 	}
-	public static int[] sort(int arr[],int size){
+	public static void sort(int arr[],int size){
 		for(int i=0;i<size-1;i++){
 			for(int j=0; j<size-1-i; j++){
 				//앞에 있는 수가 뒤에 있는 수보다 크면 서로 교환
-				if(arr[i]<arr[j+1]){
-					int tmp = arr[i];
-					arr[i]=arr[j];
-					arr[j]=tmp;
+				if(arr[j]>arr[j+1]){
+					int tmp = arr[j];
+					arr[j]=arr[j+1];
+					arr[j+1]=tmp;
 				}
 			}
 		}
-		return arr;
 	}
 	public static int[] confirm(int genarr[],int finarr[]){
 		int cnt = 0,bonus=0;		
